@@ -1,0 +1,34 @@
+.mt10{ margin-top:10px; }
+.mt20{ margin-top:20px; }
+.mt50{ margin-top:50px; }
+.mt100{ margin-top:100px; }
+.mb15{ margin-bottom:15px; }
+.radio_sec .MuiIconButton-root-542{ height:30px; }
+.radio_sec .MuiTypography-body1-514{ font-weight: 500; }
+.center-content{ display: table; margin: 0px auto; }
+.center-content2{ display: table; margin: 0px auto; min-width:200px; }
+.center-content3{ display: table; margin: 0px auto; min-width:100px; }
+.center-content4{ display: table; margin: 0px auto; min-width:450px; }
+.tooltip-sec{ position: relative; }
+.tooltip-sec .tooltip-icon{ position: absolute; right:5px; top: 8px; z-index:2; background-color: #fff; width:20px; height:20px; min-height: 20px; min-width: 20px;  }
+.tooltip-sec .tooltip-icon span{ width:20px; height:20px; min-height: 20px; min-width: 20px; font-size: 18px; }
+.tooltip-btn{ width:100%; position: relative; z-index: 1; }
+
+.room-sec{ position: relative; }
+.room-sec .room-icon{ position: absolute; left:8px; top: 8px; z-index:2; background-color: #fff; width:20px; height:20px; min-height: 20px; min-width: 20px;  }
+.room-sec .room-icon img{ width:35px; }
+.room-sec button, .room-sec button:hover{ text-align: center; background-color:#fff; border:1px solid #000; line-height: 20px; color: #000; font-size: 20px; font-weight: 600; text-transform: none; padding: 4px 16px 4px 60px; }
+.room-sec button, .room-sec button span{ justify-content: left; }
+.room-sec button.single_line > span{ padding-top: 10px; padding-bottom: 10px; }
+
+.service_btn, .service_btn:hover{ text-align: center; background-color:#fff; border:1px solid #000; line-height: 20px; color: #000; font-size: 20px; font-weight: 600; text-transform: none; padding: 4px; width:200px; text-align: center; }
+.service_btn.org-btn, .service_btn.org-btn:hover{ background-color: #fb3f04; color: #fff; }
+.red-border-btn{ color:#000; border-radius:20px; border: 1px solid #fb3f04; font-weight: 600; background-color: #fff; width:140px; }
+.red-border-btn span{ color:#000; }
+
+/*
+@media screen and (max-width: 992px) {
+    header.main-header.header-style-five {
+        display: none;
+    }
+} */

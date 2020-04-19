@@ -1,0 +1,239 @@
+/* .LogoMain,.cstm_footer, .LogoMainRght, .webMenu_cstm, .footerMinHeight{
+    display: none;
+} */
+.patternCstmBg{
+    background-image: url('./image/pattern-1.png');
+}
+.videoImgCstm{
+    background-image: url('./image/video-img.jpg');
+}
+.shareYpurBg{
+    background-image: url('./image/1.png');
+}
+.homeLogonw img {
+    width: 250px;
+    cursor: pointer;
+}
+.header-style-five .main-menu .navigation > li {
+    padding: 14px 0px;
+}
+.main-menu .navigation > li > a {
+    font-size: 14px;
+}
+.header-style-five .header-upper .logo-outer {
+    padding: 12px 0px;
+}
+.header-style-five .header-lower {
+    background-color: #4b6d86;
+}
+.btn-style-one {
+    background-color: #4b6d86;
+}
+.btn-style-one:before {
+    background-color: #374e5f;
+}
+.service-block-three .inner-box:before {
+    background-color: #51728a;
+}
+.main-footer {
+    background-color: #1c2b35;
+}
+.header-style-two .main-menu .navigation > li:hover > a, .header-style-two .main-menu .navigation > li.current > a, .header-style-three .main-menu .navigation > li:hover > a, .header-style-three .main-menu .navigation > li.current > a, .header-style-four .main-menu .navigation > li:hover > a, .header-style-four .main-menu .navigation > li.current > a, .header-style-five .main-menu .navigation > li:hover > a, .header-style-five .main-menu .navigation > li.current > a {
+    color: #03a9f4;
+}
+.btn-style-two:after, .btn-style-two:before{
+    border-top: 80px solid #51728a;
+}
+@media only screen and (max-width: 767px){
+    .main-header .nav-outer .main-menu {
+        display: block !important;
+    }
+    .main-menu .collapse {
+        max-height: initial !important;
+    }
+    .navbar-header {
+        margin-top: -65px !important;
+        opacity: 0;
+    }
+}
+@media only screen and (max-width: 992px) and (min-width: 768px)  {
+    .header-style-five .main-menu .navigation > li {
+        margin-right: 20px !important;
+    }
+    .homeLogonw img {
+        width: 196px !important;
+    }
+}
+
+
+/* form design */
+.newHome {
+    background-image: url('./image/newOne1.png');
+    background-position: center center;
+    background-size: cover;
+    min-height: 657px;
+    height: 100vh;
+    background-attachment: fixed;
+}
+.newHomeIner {
+    background: #00000033;
+    min-height: 657px;
+    height: 100vh;
+    position: relative;
+}
+.newSeniorClickHere {
+    width: 392px;
+    background: #ffffff8f;
+    margin: 0 auto;
+    padding: 12px 12px 8px 12px;
+    border-radius: 16px 16px 0px 0px;
+    position: absolute;
+    left: 4%;
+    right: 4%;
+    bottom: 0;
+    border: 1px solid #03a9f4;
+    border-bottom: none !important;
+}
+.senoirSignup {
+    background: #03a9f4;
+    text-align: center;
+    padding: 6px 5px;
+}
+.senoirSignup h1 {
+    font-weight: 500;
+    font-size: 15px;
+    color: #ffffff;
+    margin: 0px;
+}
+.senoirSignup p {
+    margin: 0px;
+    font-size: 12px;
+    color: #ffffff;
+}
+.senoirCmnity {
+    display: flex;
+}
+.senoirCmnity div {
+    width: 50%;
+    background: #03a9f4;
+    padding: 6px 5px;
+    text-align: center;
+}
+.senoirCmnity {
+    margin-top: 12px;
+}
+.senoirCmnity div:last-child {
+    margin-left: 12px;
+}
+.senoirCmnity a {
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 500;
+    display: block;
+}
+.mileZip {
+    display: flex;
+}
+.distance_mile, .distance_zip{
+    width: 45%;
+}
+.of_lbl{
+    width: 10%; 
+    text-align: center;
+    margin-top: 22px;
+}
+.distance_mile div {
+    width: 100%;
+}
+.distance_zip input {
+    width: 100%;
+}
+.distance_zipInr {
+    margin-top: 0px;
+}
+.of_lbl label {
+    font-size: 14px;
+    font-weight: 600;
+}
+.ctyZip_sec {
+    display: flex;
+}
+.ctyZip_sec {
+    display: flex;
+}
+.ctyZip_left {
+    margin-right: 12px;
+}
+.ctyZip_rght {
+    margin-left: 12px;
+}
+.ctyZip_sec input {
+    width: 100%;
+}
+.cntryState_sec{
+    display: flex;
+}
+.cntryState_lft {
+    margin-right: 12px;
+}
+.cntryState_rght {
+    margin-left: 12px;
+}
+.cntryState_sec input {
+    width: 100%;
+}
+.seniorSubmit span {
+    color: #ffffff;
+    font-size: 13px !important;
+}
+
+.seniorSubmit button {
+    margin-left: 0px;
+    margin-top: 8px !important;
+    padding: 6px 8px !important;
+    height: 30px !important;
+    max-width: 32px !important;
+    line-height: 12px !important;
+    min-height: auto !important;
+    min-width: 70px !important;
+}
+.mngLabel {
+    margin-top: 0px;
+}
+label.srchBy_lbl {
+    color: #1e1b1a;
+    font-weight: 600;
+    display: block;
+    font-size: 14px;
+}
+
+.LogoMainNwHm{
+    display: block !important;
+}
+.nwHm_menuBar .webMenu_cstm {
+    display: inherit !important;
+}
+.nwHm_menuBar div, .nwHm_menuBar main, .nwHm_menuBar header {
+    background: transparent !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+.senoirCmnity a {
+    color: #ffffff !important;
+}
+.footerLogo{
+    width: 185px;
+}
+.distance_zip {
+    margin-top: -14px;
+}
+/* @media screen and (max-width: 992px) {
+.LogoMain.LogoMainNwHm {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 992px) {
+    header.main-header.header-style-five {
+        display: none;
+    }
+} */

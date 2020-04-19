@@ -1,0 +1,49 @@
+.mt10{ margin-top:10px !important; }
+.mt20{ margin-top:20px !important; }
+.mt30{ margin-top:30px !important; }
+.mt40{ margin-top:40px !important; }
+.mt50{ margin-top:50px !important; }
+.mt100{ margin-top:100px !important; }
+.mb15{ margin-bottom:15px !important; }
+.ml-8{ margin-left: 8px !important; }
+
+.font-weight-600{ font-weight: 600 !important; }
+
+.text-center{ text-align: center; }
+.red-border-btn, .red-border-btn:hover{ color:#000; border-radius:20px; text-transform: none; font-size: 16px; border: 1px solid #fb3f04; font-weight: 600; background-color: #fff; width:180px; }
+.red-border-btn span,  .red-border-btn:hover span{ color:#000; }
+
+.blue-txt{ color:#03a9f4 !important; }
+.text-right{ text-align: right; }
+.community_col h2{ margin: 0; padding: 0; font-size: 18px; }
+.community_col h2 a, .community_col h2 a:hover{ color:#03a9f4; }
+
+.process_detail{ display: table; width: 100%; }
+.process_detail > div:first-child{ display: table-cell; width: 150px; }
+.process_detail > div:last-child{ display: table-cell; }
+.red_text{ color: #fb3f04; }
+.community_detail a{ color:#03a9f4; cursor: pointer; display:inline-block; margin-left:8px; }
+.community_tile2{ color:#03a9f4; font-weight: 600; }
+.community_tile3{ font-weight: 600; }
+.senior_community2 p{ margin: 0; padding: 0; }
+.circular_progress{ position:relative; display: inline-block; width:60px; height: 60px; margin-top: 38px; }
+.circular_progress:after{ position: absolute; left: 4px; right: 4px; top: 4px; bottom: 4px; z-index: 1;; border-radius:100%; margin: auto; content: ""; border: 4px solid red !important; }
+.circular_bar .MuiCircularProgress-svg-500 { color:#03a9f4; }
+.circular_bar { position: relative; color:#03a9f4; z-index: 2; width:60px !important; height: 60px !important; }
+.circular_progress p{ position: absolute; z-index: 2; width:100%; text-align: center; top: 21px; line-height: 18px;  }
+
+.circular_progress2{ position:relative; display: inline-block; width:50px; height: 50px; margin-top: 5px; }
+.circular_progress2:after{ position: absolute; left: 3px; right: 3px; top: 3px; bottom: 3px; z-index: 1;; border-radius:100%; margin: auto; content: ""; border: 4px solid red !important; }
+.circular_bar2 .MuiCircularProgress-svg-500 { color:#03a9f4; }
+.circular_bar2 { position: relative; color:#03a9f4; z-index: 2; width:50px !important; height: 50px !important; }
+.circular_progress2 p{ position: absolute; z-index: 2; width:100%; text-align: center; top: 16px; line-height: 18px;  }
+.process_image{ border:2px solid #e3e3e3; min-height: 60px; position: relative; text-align: center; padding:5px; border-radius:8px; -moz-border-radius:8px; -webkit-border-radius:8px; padding-bottom: 24px; }
+.process_image:hover{ border:2px solid #fb3f04; }
+.process_image img{ max-width: 100%; }
+.process_image p{ padding-top: 8px; position: absolute; bottom: 5px; left: 0; width: 100%; }
+/*
+@media screen and (max-width: 992px) {
+    header.main-header.header-style-five {
+        display: none;
+    }
+} */

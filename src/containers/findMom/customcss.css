@@ -1,0 +1,24 @@
+.mt20{ margin-top:20px; }
+.mt50{ margin-top:50px; }
+.mt100{ margin-top:100px; }
+.mb15{ margin-bottom:15px; }
+
+.findmom-content{ width:800px; margin: 0px auto; }
+
+.txt2{ font-size: 18px; }
+.itemList {
+    width: 100%;
+    background-color: #fff;
+}
+.itemList li{ padding: 0; margin-top: 10px; }
+.itemList li:first-child{ margin-top: 0px; font-size: 22px !important; }
+.itemList li span{ font-size:18px; color: rgba(0, 0, 0, 0.87); }
+.red-border-btn{ border-radius:20px; border: 1px solid #fb3f04; font-weight: 600; background-color: #fff; width:140px; }
+.red-border-btn span{ color:#000; }
+.itemList li .red-txt span{ color:#fb3f04; }
+/*
+@media screen and (max-width: 992px) {
+    header.main-header.header-style-five {
+        display: none;
+    }
+} */
